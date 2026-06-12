@@ -5,7 +5,7 @@ const Selection = (props) => {
   const [style, updateSelectionStyle] = useState({ background: '' });
   return (
     <div
-      className="fix-box"
+      className="fix-box subheading"
       style={style}
       onClick={() => applyColor(updateSelectionStyle)}
     >
